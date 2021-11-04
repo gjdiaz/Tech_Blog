@@ -2,6 +2,7 @@ const { Blog } = require("../models");
 // var date = new Date().toDateString();
 const blogData = [
   {
+    id: 1,
     blog_title: "iPhones versus Androids",
     contents: "Androids are better",
     creator: "Geneva Diaz",

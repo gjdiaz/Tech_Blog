@@ -9,7 +9,7 @@ CREATE TABLE blog (
     contents VARCHAR(1000),
     creator VARCHAR(30),
     date INT NOT NULL
-)
+);
 
 CREATE TABLE comment (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
@@ -18,4 +18,4 @@ CREATE TABLE comment (
     date INT NOT NULL,
     blog_id INT,
     FOREIGN KEY (blog_id) REFERENCES blog(id) ON DELETE SET NULL-- references the blog model's id
-)
+);

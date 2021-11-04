@@ -39,8 +39,4 @@ Blog.init(
   }
 );
 
-// below keeps console logging as false - why?
-console.log(Blog === sequelize.models.Blog);
-//console.log(Blog.id());
-//console.log(Blog.blog_title());
 module.exports = Blog;
